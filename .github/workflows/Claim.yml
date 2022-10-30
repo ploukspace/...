@@ -16,7 +16,7 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Claim IP and commit 
       run: |
-        curl http://ipv4.games/claim?name=ghrmbell -o claim.html
+        curl http://ipv4.games/claim?name=proxyrow.tech -o claim.html
         git config user.name "Automated"
         git config user.email "actions@users.noreply.github.com"
         git add claim.html
